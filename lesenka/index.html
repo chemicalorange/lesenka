@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/icons.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <title>Lesenka</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <a class="header__logo logo" href="index.html">
+                    <div class="logo__image"><img src="assets/img/logo.svg" alt="logo"></div>
+                    <div class="logo__text">
+                        <p>Проектирование</p>
+                        <p>Изготовление</p>
+                        <p>Монтаж</p>
+                    </div>
+                </a>
+                <div class="burger">
+                    <div></div>
+                </div>
+                <nav class="header__menu menu">
+                    <a href="about.html" class="menu__item">О компании</a>
+                    <a href="typesOfStairs.html" class="menu__item">Каталог</a>
+                    <a href="#" class="menu__item">Примеры работ</a>
+                    <a href="#" class="menu__item">Блог</a>
+                    <a href="#" class="menu__item">Контакты</a>
+                    <div class="header__phone phone">
+                        <a href="phone:89302835065" class="phone__phoneText">+7 (930) 283-50-65</a>
+                        <a href="#" class="btn btnOrange">Перезвоните мне</a>
+                    </div>
+                </nav>
+
+
+
+
+            </div>
+        </header>
+        <section class="calc">
+            <div class="calc__container">
+                <a href="#" class="calc__close"></a>
+                <h1 class="calc__title">Шаг <span class="form__step">1</span> из 3</h1>
+                <div class="calc__progress">
+                    <div class="calc__progress-bg"></div>
+                </div>
+                <form action="" class="form">
+                    
+                    <div class="screen form__screen active">
+                        <h2 class="screen__title">
+                            Выберите тип лестницы
+                        </h2>
+                        <div class="screen__container form__radios radios__type-of-stair">
+                            <input type="radio" name="type-of-stair" class="screen__radio" id="straight"
+                                value="Прямая лестница" checked></input>
+                            <label for="straight" class="calc__label label">
+                                <div class="label__img">
+                                    <img src="assets/img/label-stairs1.png" alt="label-stairs1">
+                                </div>
+                                <h3 class="label__title">Прямая лестница</h3>
+                            </label>
+                            <input type="radio" name="type-of-stair" class="screen__radio" id="zabesh"
+                                value="Забежная лестница"></input>
+                            <label for="zabesh" class="calc__label label">
+                                <div class="label__img">
+                                    <img src="assets/img/label-stairs1.png" alt="label-stairs1">
+                                </div>
+                                <h3 class="label__title">Забежная лестница</h3>
+                            </label>
+                            <input type="radio" name="type-of-stair" class="screen__radio" id="vintov"
+                                value="Винтовая лестница"></input>
+                            <label for="vintov" class="calc__label label">
+                                <div class="label__img">
+                                    <img src="assets/img/label-stairs1.png" alt="label-stairs1">
+                                </div>
+                                <h3 class="label__title">Винтовая лестница</h3>
+                            </label>
+                            <input type="radio" name="type-of-stair" class="screen__radio" id="fasad"
+                                value="Фасадная лестница"></input>
+                            <label for="fasad" class="calc__label label">
+                                <div class="label__img">
+                                    <img src="assets/img/label-stairs1.png" alt="label-stairs1">
+                                </div>
+                                <h3 class="label__title">Фасадная лестница</h3>
+                            </label>
+                            <input type="radio" name="type-of-stair" class="screen__radio" id="individ"
+                                value="Индивидуальный проект"></input>
+                            <label for="individ" class="calc__label label">
+                                <div class="label__img">
+                                    <img src="assets/img/label-stairs1.png" alt="label-stairs1">
+                                </div>
+                                <h3 class="label__title">Индивидуальный проект</h3>
+                            </label>
+                        </div>
+                        <a href="#" class="btn-next btn btnOrange">Следующий шаг</a>
+                    </div>
+                    <div class="screen form__screen">
+
+                        <div class="screen__container">
+                            <div class="screen__col form__radios radios__view-of-stair">
+                                <h2 class="screen__title">
+                                    Выберите вид
+                                </h2>
+                                <div>
+                                    <input type="radio" name="view" class="screen__radio" id="gladc"
+                                        value="Фасадная лестница" checked></input>
+                                    <label for="gladc" class="calc__label label">
+                                        <div class="label__img">
+                                            <img src="assets/img/label-stairs1.png" alt="label-stairs1">
+                                        </div>
+                                        <h3 class="label__title">Гладкоподшитая лестница</h3>
+                                    </label>
+                                    <input type="radio" name="view" class="screen__radio" id="serkal"
+                                        value="Индивидуальный проект"></input>
+                                    <label for="serkal" class="calc__label label">
+                                        <div class="label__img">
+                                            <img src="assets/img/label-stairs1.png" alt="label-stairs1">
+                                        </div>
+                                        <h3 class="label__title">Зеркальная лестница</h3>
+                                    </label>
+                                </div>
+
+                            </div>
+                            <div class="form__inputs inputs__sizes screen__col">
+                                <h2 class="screen__title">
+                                    Укажите размеры
+                                </h2>
+                                <input type="number" placeholder="Высота между этажами (см)" id="inputs__height">
+                                <input type="number" placeholder="Длина лестницы (см)" id="inputs__length">
+                                <input type="number" placeholder="Ширина степени (см)" id="inputs__width">
+                            </div>
+                        </div>
+                        <a href="#" class="btn-next btn-data btn btnOrange">Следующий шаг</a>
+                    </div>
+                    <div class="form__screen screen">
+                        <div class="screen__container">
+                            <div class="form__inputs inputs__person screen__col">
+                                <h2 class="screen__title">
+                                    Куда отправить рассчет?
+                                </h2>
+                                <input type="text" id="inputs__name" placeholder="Имя">
+                                <input type="text" id="inputs__phone" placeholder="Телефон">
+                                <input type="number" id="inputs__email" placeholder="E-mail">
+                            </div>
+                            <div class="form__data data-form">
+                                <h2 class="screen__title">
+                                    Параметры
+                                </h2>
+                                <div>
+                                    <div class="data-form__titles">
+                                        <p>Тип лестницы:</p>
+                                        <p>Вид лестницы:</p>
+                                        <!--<p>Тип отделки:</p>-->
+                                        <p>Длина лестницы:</p>
+                                        <p>Ширина ступени:</p>
+                                        <p>Высота этажа:</p>
+                                    </div>
+                                    <div class="data-form__data">
+                                        <p data-stairs="type">Тип лестницы:</p>
+                                        <p data-stairs="view">Вид лестницы:</p>
+                                        <!--<p data-stairs="typeOtdel">Тип отделки:</p>-->
+                                        <p data-stairs="length">Тип лестницы:</p>
+                                        <p data-stairs="width">Тип лестницы:</p>
+                                        <p data-stairs="height">Тип лестницы:</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <input type="submit" class="btn btnOrange" value="Отправить"></input>
+                    </div>
+                </form>
+
+
+                <div class="calc__screen screen screen__two">
+
+                    <div class="screen__container">
+                        <div class="screen__col">
+                            <h2 class="screen__title">Выберите вид</h2>
+                            <div class="col__container">
+                                <input type="radio" name="view" class="screen__radio" id="gladc"
+                                    value="Фасадная лестница"></input>
+                                <label for="gladc" class="calc__label label">
+                                    <div class="label__img">
+                                        <img src="assets/img/label-stairs1.png" alt="label-stairs1">
+                                    </div>
+                                    <h3 class="label__title">Гладкоподшитая лестница</h3>
+                                </label>
+                                <input type="radio" name="view" class="screen__radio" id="serkal"
+                                    value="Индивидуальный проект"></input>
+                                <label for="serkal" class="calc__label label">
+                                    <div class="label__img">
+                                        <img src="assets/img/label-stairs1.png" alt="label-stairs1">
+                                    </div>
+                                    <h3 class="label__title">Зеркальная лестница</h3>
+                                </label>
+                            </div>
+
+
+                        </div>
+                        <div class="screen__col">
+                            <h2 class="screen__title">Укажите размеры</h2>
+                            <input type="number" placeholder="Высота между этажами (см)" id="height">
+                            <input type="number" placeholder="Длина лестницы (см)" id="length">
+                            <input type="number" placeholder="Ширина степени (см)" id="width">
+                        </div>
+                    </div>
+                    <a href="#" class="btn btnOrange">Следующий шаг</a>
+                </div>
+
+                <div class="calc__screen screen screen__three">
+                    <h2 class="screen__title">Выберите вариант отделки</h2>
+                    <div class="screen__container">
+                        <input type="radio" name="otdelka" class="screen__radio" id="wood"
+                            value="Прямая лестница"></input>
+                        <label for="wood" class="calc__label label">
+                            <div class="label__img">
+                                <img src="assets/img/label-stairs1.png" alt="label-stairs1">
+                            </div>
+                            <h3 class="label__title">Отделка деревом</h3>
+                        </label>
+                        <input type="radio" name="otdelka" class="screen__radio" id="stone"
+                            value="Забежная лестница"></input>
+                        <label for="stone" class="calc__label label">
+                            <div class="label__img">
+                                <img src="assets/img/label-stairs1.png" alt="label-stairs1">
+                            </div>
+                            <h3 class="label__title">Отделка камнем</h3>
+                        </label>
+                        <input type="radio" name="otdelka" class="screen__radio" id="plitka"
+                            value="Винтовая лестница"></input>
+                        <label for="plitka" class="calc__label label">
+                            <div class="label__img">
+                                <img src="assets/img/label-stairs1.png" alt="label-stairs1">
+                            </div>
+                            <h3 class="label__title">Отделка плиткой</h3>
+                        </label>
+                        <input type="radio" name="otdelka" class="screen__radio" id="kovan"
+                            value="Фасадная лестница"></input>
+                        <label for="kovan" class="calc__label label">
+                            <div class="label__img">
+                                <img src="assets/img/label-stairs1.png" alt="label-stairs1">
+                            </div>
+                            <h3 class="label__title">Кованными изделиями</h3>
+                        </label>
+                        <input type="radio" name="otdelka" class="screen__radio" id="withoutotdelk"
+                            value="Индивидуальный проект"></input>
+                        <label for="withoutotdelk" class="calc__label label">
+                            <div class="label__img">
+                                <img src="assets/img/label-stairs1.png" alt="label-stairs1">
+                            </div>
+                            <h3 class="label__title">Без отделки</h3>
+                        </label>
+
+                    </div>
+                    <a href="#" class="btn btnOrange">Следующий шаг</a>
+                </div>
+
+                <div class="calc__screen screen screen__four">
+                    <div class="screen__container">
+                        <form class="screen__col">
+                            <h2 class="screen__title">Куда отправить рассчет?</h2>
+                            <input type="text" placeholder="Ваше имя..." id="name">
+                            <input type="number" placeholder="Ваш телефон..." id="phone">
+                            <input type="text" placeholder="Ваш e-mail..." id="email">
+                        </form>
+                        <div class="screen__col">
+                            <h2 class="screen__title">Параметры</h2>
+                            <div class="col__container col__parameters">
+                                <p>Тип лестницы <span data-stair="type">Винтовая лестница</span></p>
+                                <p>Вид лестницы <span data-stair="view">Винтовая лестница</span></p>
+                                <p>Тип отделки <span data-stair="type-otdel">Винтовая лестница</span></p>
+                                <p>Длина лестницы <span data-stair="length">Винтовая лестница</span></p>
+                                <p>Ширина ступени <span data-stair="width">Винтовая лестница</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btnOrange">Следующий шаг</a>
+                </div>
+
+            </div>
+        </section>
+        <section class="first-screen">
+            <div class="container">
+                <div class="first-screen__left">
+                    <div class="first-screen__image">
+                        <img src="assets/img/first-screen1.png" alt="first-screen">
+                    </div>
+                    <div class="first-screen__cta cta">
+                        <div class="cta__title">Рассчитайте стоимость
+                            вашей лестницы в 3 шага</div>
+                        <div class="btn btnWhite showCalc">
+                            Подробнее
+                        </div>
+                    </div>
+                </div>
+                <div class="first-screen__right">
+                    <div class="first-screen__suptitle">
+                        Всего за <strong> 10 дней </strong> с гарантией <strong> 30 лет </strong>
+                    </div>
+                    <div class="title-big">
+                        Монолитные лестницы
+                        «под ключ»
+                    </div>
+                    <div class="subtitle">
+                        Исполним все ваши мечты о современной
+                        и красивой лестнице по минимальной
+                        цене, но с максимальным качеством!
+                    </div>
+                    <a href="#" class="btn btnOrange">Консультация</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="benifits">
+            <div class="container">
+                <div class="list-with-icons benefits__list-with-icons">
+                    <div class="list-with-icons__item item">
+                        <div class="item__icon icon-worker item-with-orange-line"></div>
+                        <div class="item__text">
+                            <div class="item__title">Работаем
+                                без посредников</div>
+                            <div class="item__subtitle">
+                                Изготовление и монтаж осуществляют только наши мастера с опытом работы
+                                более Х-ти лет.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-with-icons__item item">
+                        <div class="item__icon icon-money item-with-orange-line"></div>
+                        <div class="item__text">
+                            <div class="item__title">Фиксированные
+                                цены</div>
+                            <div class="item__subtitle">
+                                После согласования сметы
+                                все цены фиксируются
+                                в договоре и не изменяются
+                                в процессе.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-with-icons__item item">
+                        <div class="item__icon icon-stair item-with-orange-line"></div>
+                        <div class="item__text">
+                            <div class="item__title">Любые варианты
+                                отделки</div>
+                            <div class="item__subtitle">
+                                Изготовление и монтаж осуществляют только наши мастера с опытом работы
+                                более Х-ти лет.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="types-of-stairs">
+            <div class="container">
+
+                <!-- Slider main container -->
+                <div class="swiper types-of-stairs__slider">
+                    <div class="types-of-stairs__line">
+                        <h1 class="title">Типы лестниц</h1>
+                        <div class="swiper-buttons">
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+                    </div>
+
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="types-of-stairs__item item">
+                                <div class="item__image">
+                                    <img src="assets/img/types-of-stairs1.png" alt="types-of-stairs1">
+                                </div>
+                                <h2 class="item__title">Прямая лестница</h2>
+                                <p class="item__price">от <span class="price">18 000</span>₽ за м. п.</p>
+                                <a href="#" class="btn btnOrange">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="types-of-stairs__item item">
+                                <div class="item__image">
+                                    <img src="assets/img/types-of-stairs2.png" alt="types-of-stairs1">
+                                </div>
+                                <h2 class="item__title">Забежная лестница</h2>
+                                <p class="item__price">от <span class="price">27 000</span>₽ за м. п.</p>
+                                <a href="#" class="btn btnOrange">Подробнее</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="types-of-stairs__item item">
+                                <div class="item__image">
+                                    <img src="assets/img/types-of-stairs3.png" alt="types-of-stairs1">
+                                </div>
+                                <h2 class="item__title">Винтовая лестница</h2>
+                                <p class="item__price">от <span class="price">30 000</span>₽ за м. п.</p>
+                                <a href="#" class="btn btnOrange">Подробнее</a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="types-of-stairs__item item">
+                                <div class="item__image">
+                                    <img src="assets/img/types-of-stairs1.png" alt="types-of-stairs1">
+                                </div>
+                                <h2 class="item__title">Винтовая лестница</h2>
+                                <p class="item__price">от <span class="price">30 000</span>₽ за м. п.</p>
+                                <a href="#" class="btn btnOrange">Подробнее</a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="types-of-stairs__item item">
+                                <div class="item__image">
+                                    <img src="assets/img/types-of-stairs1.png" alt="types-of-stairs1">
+                                </div>
+                                <h2 class="item__title">Прямая лестница</h2>
+                                <p class="item__price">от <span class="price">18 000</span>₽ за м. п.</p>
+                                <a href="#" class="btn btnOrange">Подробнее</a>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="types-of-stairs__item item">
+                                <div class="item__image">
+                                    <img src="assets/img/types-of-stairs1.png" alt="types-of-stairs1">
+                                </div>
+                                <h2 class="item__title">Прямая лестница</h2>
+                                <p class="item__price">от <span class="price">18 000</span>₽ за м. п.</p>
+                                <a href="#" class="btn btnOrange">Подробнее</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </div>
+        </section>
+        <section class="dvisualisation">
+            <div class="container">
+                <h1 class="title">Получите 3d-визуализацию вашей будущей лестнице бесплатно!</h1>
+                <div class="subtitle">
+                    Оставьте свои контактные данные и наш специалист свяжется свами в течении 15 минут!
+                </div>
+                <form action="" class="form">
+                    <div class="line">
+                        <input class="form__input" type="text" placeholder="Ваше имя..." name="name">
+                        <input class="form__input" type="phone" placeholder="Ваш телефон..." name="phone">
+                        <input class="form__input" type="email" placeholder="Ваше e-mail..." name="email">
+
+                    </div>
+                    <div class="line">
+                        <input type="submit" name="submit" class="btn btnOrange">
+                        <p class="form__agreement">
+                            Нажимая на кнопку
+                            вы соглашаетесь с <a href="#" class="policy"> политикой
+                                конфиденциальности </a>
+                        </p>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+        <section class="why">
+            <div class="container">
+                <div class="title">Почему стоит обратиться к нам</div>
+                <div class="why__content">
+                    <div class="why__text">
+                        <div class="why__title">
+                            Мы воплощаем идеи в реальность
+                        </div>
+                        <div class="why__paragraph">
+                            Популярность монолитных лестничных систем
+                            из железобетона в современном строительстве очень высока. Когда решите заказать эксклюзивную
+                            бетонную лестницу, главное — не ошибиться
+                            с выбором ее изготовителя. Отдав предпочтение компании «Лесенка 52», вы найдете в нашем лице
+                            надежного партнера, с отличной репутацией,
+                            предлагающего лучшие в регионе качество
+                            и расценки.
+                            <br><br>
+                            Популярность монолитных лестничных систем
+                            из железобетона в современном строительстве очень высока.
+                        </div>
+
+                    </div>
+
+                    <div class="why__specialisation">
+                        <div class="why__title">Наша специализация:</div>
+                        <div class="why__items">
+                            <div class="why__item item">
+                                <div class="item__icon item-with-orange-line icon-proect"></div>
+                                <div class="item__title">Проектирование</div>
+                            </div>
+
+                            <div class="why__item item">
+                                <div class="item__icon item-with-orange-line icon-production"></div>
+                                <div class="item__title">Изготовление</div>
+                            </div>
+
+                            <div class="why__item item">
+                                <div class="item__icon item-with-orange-line icon-montash"></div>
+                                <div class="item__title">Монтаж и отделка</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="why__image">
+                        <img src="assets/img/why.png" alt="why">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="examples">
+            <div class="container">
+                <div class="exapmles__left">
+                    <div class="title">Примеры наших работ</div>
+                    <div class="swiper examples__slider slider__left">
+
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide examples__item item">
+                                <div class="item__title">
+                                    Прямая лестница в новом
+                                    доме, г. Нижний Новгород
+                                </div>
+                                <div class="item__description">
+                                    <p>Тип помещения: <span>частный дом</span></p>
+                                    <p>Высота от пола до потолка: <span>3,1 м</span></p>
+                                    <p>Количество ступеней: <span>18 шт.</span></p>
+                                    <p>Количество подъемов: <span>20 шт.</span></p>
+                                    <p>Срок изготовления: <span>17 дней</span></p>
+                                </div>
+                                <p class="item__price">Стоимость: <span class="price">75 000</span> ₽</p>
+                                <a class="btn btnOrange">Хочу такую лестницу</a>
+                            </div>
+                            <div class="swiper-slide examples__item item">
+                                <div class="item__title">
+                                    Прямая лестница в новом
+                                    доме, г. Нижний Новгород
+                                </div>
+                                <div class="item__description">
+                                    <p>Тип помещения: <span>частный дом</span></p>
+                                    <p>Высота от пола до потолка: <span>3,1 м</span></p>
+                                    <p>Количество ступеней: <span>18 шт.</span></p>
+                                    <p>Количество подъемов: <span>20 шт.</span></p>
+                                    <p>Срок изготовления: <span>17 дней</span></p>
+                                </div>
+                                <p class="item__price">Стоимость: <span class="price">75 000</span> ₽</p>
+                                <a class="btn btnOrange">Хочу такую лестницу</a>
+                            </div>
+                            <div class="swiper-slide examples__item item">
+                                <div class="item__title">
+                                    Прямая лестница в новом
+                                    доме, г. Нижний Новгород
+                                </div>
+                                <div class="item__description">
+                                    <p>Тип помещения: <span>частный дом</span></p>
+                                    <p>Высота от пола до потолка: <span>3,1 м</span></p>
+                                    <p>Количество ступеней: <span>18 шт.</span></p>
+                                    <p>Количество подъемов: <span>20 шт.</span></p>
+                                    <p>Срок изготовления: <span>17 дней</span></p>
+                                </div>
+                                <p class="item__price">Стоимость: <span class="price">75 000</span> ₽</p>
+                                <a class="btn btnOrange">Хочу такую лестницу</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="examples__right">
+                    <div class="swiper examples__slider slider__right">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="assets/img/examples1.png" alt="examples"></div>
+                            <div class="swiper-slide"><img src="assets/img/examples2.png" alt="examples"></div>
+                            <div class="swiper-slide"><img src="assets/img/examples2.png" alt="examples"></div>
+
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-buttons">
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="benefits-stairs">
+            <div class="container">
+                <h1 class="title">Преимущества монолитных лестниц</h1>
+                <div class="benefits-stairs__content">
+                    <div class="benefits-stairs__image">
+                        <img src="assets/img/benefits-stairs.png" alt="benefits-stairs">
+                    </div>
+
+                    <div class="benefits-stairs__right items">
+                        <div class="items__item item">
+                            <div class="item__title">Долговечность и надежность</div>
+                            <div class="item__subtitle">Монолитные лестницы из бетона выдерживают большую
+                                нагрузку — 800–1000 кг/см2. Срок службы бетона — 100 и более лет.</div>
+                        </div>
+
+                        <div class="items__item item">
+                            <div class="item__title">Разнообразие форм, конфигураций и стилей</div>
+                            <div class="item__subtitle">Большой выбор форм лестниц поможет вашему дому
+                                выделиться и приобрести уникальность..</div>
+                        </div>
+
+                        <div class="items__item item">
+                            <div class="item__title">Низкий уровень шума и вибраций</div>
+                            <div class="item__subtitle">При ходьбе или беге по ним не передаются колебания
+                                на несущие конструкции и глушатся шумы.</div>
+                        </div>
+
+                        <div class="items__item item">
+                            <div class="item__title">Отсутствие опор в конструкции</div>
+                            <div class="item__subtitle">Существенно сохраняет свободное пространство, сокращает
+                                количество материалов для изготовления лестницы.
+                            </div>
+                        </div>
+
+                        <div class="items__item item">
+                            <div class="item__title">Возможность отделки любыми материалами</div>
+                            <div class="item__subtitle">Дерево, керамическая плитка, клинкерная плитка, кованые
+                                элементы, ковролин, ламинат, натуральный камень, стекло.</div>
+                        </div>
+
+                        <div class="items__item item">
+                            <div class="item__title">Пожаробезопасность, огнестойкость</div>
+                            <div class="item__subtitle">Бетон, из которого изготавливаются монолитные бетонные лестницы
+                                не горючий, огнеупорный материал.</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="how-we-work">
+            <div class="container">
+                <h1 class="title">Как мы работаем?</h1>
+                <div class="list-with-icons how-we-work__list-with-icons">
+                    <div class="list-with-icons__item item">
+                        <div class="item__icon item-with-orange-line">01</div>
+                        <div class="item__text">
+                            <div class="item__title">Ваша заявка
+                                на замер</div>
+                            <div class="item__subtitle">
+                                Позвоните нам или
+                                заполните форму
+                                обратной связи
+                                заказа на сайте.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-with-icons__item item">
+                        <div class="item__icon item-with-orange-line">02</div>
+                        <div class="item__text">
+                            <div class="item__title">Замер и проектирование</div>
+                            <div class="item__subtitle">
+                                В удобное вам время проводим замеры.
+                                Проектируем удобную
+                                конструкцию.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-with-icons__item item">
+                        <div class="item__icon item-with-orange-line">03</div>
+                        <div class="item__text">
+                            <div class="item__title">Оформление
+                                договора</div>
+                            <div class="item__subtitle">
+                                Просчитываем смету,
+                                готовим договор.
+                                После согласования подписываем договор.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-with-icons__item item">
+                        <div class="item__icon item-with-orange-line">04</div>
+                        <div class="item__text">
+                            <div class="item__title">Выполнение
+                                работ</div>
+                            <div class="item__subtitle">
+                                Выполняем комплекс работ, качественно
+                                и в установленные
+                                договором сроки.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="questions">
+            <div class="container">
+                <div class="questions__map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2230.7598889307915!2d92.81126065185293!3d56.00551168052648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5cd7adee0d52d001%3A0x87dcb5b2d2440e99!2z0JvQtdGB0LXQvdC60LA!5e0!3m2!1sru!2sru!4v1633942384132!5m2!1sru!2sru"
+                        style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="questions__right">
+                    <h1 class="title">
+                        У вас остались
+                        вопросы?
+                    </h1>
+                    <div class="subtitle">
+                        Не нашли нужной информации? Интересует что-то конкретное? Напишите нам и наши специалисты
+                        ответят вам в течении 30 минут!
+                    </div>
+                    <form action="" class="form">
+
+                        <input class="form__input" type="text" placeholder="Ваше имя..." name="name">
+                        <input class="form__input" type="phone" placeholder="Ваш телефон..." name="phone">
+                        <input class="form__input" type="email" placeholder="Ваше e-mail..." name="email">
+
+
+
+                        <input type="submit" name="submit" class="btn btnOrange">
+                        <p class="form__agreement">
+                            Нажимая на кнопку
+                            вы соглашаетесь с <a href="#" class="policy"> политикой
+                                конфиденциальности </a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+
+                <div class="first-col col">
+                    <a class="footer__logo logo" href="index.html">
+
+                        <div class="logo__image"><img src="assets/img/logo.svg" alt="logo"></div>
+                        <div class="logo__text">
+                            <p>Проектирование</p>
+                            <p>Изготовление</p>
+                            <p>Монтаж</p>
+                        </div>
+                    </a>
+                    <p class="footer__monolite">Монолитные лестницы</p>
+
+                    <div class="footer__copy footer__grey">
+                        © 2020 Все права защищены.
+                    </div>
+
+                </div>
+                <div class="second-col col">
+                    <nav class="footer__menu menu">
+                        <a href="#" class="menu__item">О компании</a>
+                        <a href="#" class="menu__item">Каталог</a>
+                        <a href="#" class="menu__item">Примеры работ</a>
+                        <a href="#" class="menu__item">Блог</a>
+                        <a href="#" class="menu__item">Контакты</a>
+                    </nav>
+                    <div class="footer__grey">
+                        <a class="policy" href="#">Политика конфиденциальности</a>
+                    </div>
+                </div>
+                <div class="third-col col">
+                    <div class="footer__phone phone">
+                        <a href="phone:89302835065" class="phone__phoneText">+7 (930) 283-50-65</a>
+                        <a href="#" class="btn btnOrange">Перезвоните мне</a>
+                    </div>
+                    <div class="footer__grey footer__social">
+                        <a href="#" class="icon-vk"></a>
+                        <a href="#" class="icon-instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="assets/js/sliders.js"></script>
+    <script src="assets/js/form.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
