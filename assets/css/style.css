@@ -2395,4 +2395,9 @@ a {
 .calc .data-form__data {
   margin-left: 10px;
 }
+
+.calc .form__error {
+  color: crimson;
+  font-weight: 600;
+}
 /*# sourceMappingURL=style.css.map */

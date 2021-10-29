@@ -1,6 +1,6 @@
 let calc = document.querySelector('.calc');
 let button = document.querySelector('.showCalc'); 
-
+let calcContainer = document.querySelector('.calc__container');
 button.addEventListener('click', ()=>{
     calc.classList.add('active');
     document.querySelector('body').classList.add('lock');
@@ -12,7 +12,17 @@ calc.querySelector('.calc__close').addEventListener('click', ()=>{
 });
 
 
-
+document.addEventListener('click', e => {
+    let target = e.target;
+    let its_menu = target == calcContainer || calcContainer.contains(target);
+    let its_button = target == button;
+    let menu_is_active = calc.classList.contains('active');
+    
+    if (!its_menu && !its_button && menu_is_active) {
+        calc.classList.remove('active');
+        document.querySelector('body').classList.remove('lock');
+    }
+  })
 
 
 let form = document.querySelector('.form');
