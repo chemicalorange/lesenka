@@ -133,7 +133,7 @@
                                 <input type="number" placeholder="Высота между этажами (см)" id="inputs__height">
                                 <input type="number" placeholder="Длина лестницы (см)" id="inputs__length">
                                 <input type="number" placeholder="Ширина степени (см)" id="inputs__width">
-              
+                                <div class="form__error">Пожалуйста, заполните все поля</div>
                             </div>
                         </div>
                         
@@ -145,9 +145,9 @@
                                 <h2 class="screen__title">
                                     Куда отправить рассчет?
                                 </h2>
-                                <input type="text" id="inputs__name" placeholder="Имя">
-                                <input type="text" id="inputs__phone" placeholder="Телефон">
-                                <input type="number" id="inputs__email" placeholder="E-mail">
+                                <input type="text" id="inputs__name" placeholder="Имя" required>
+                                <input type="text" id="inputs__phone" placeholder="Телефон" required>
+                                <input type="text" id="inputs__email" placeholder="E-mail" required>
                             </div>
                             <div class="form__data data-form">
                                 <h2 class="screen__title">
